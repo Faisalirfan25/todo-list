@@ -1,8 +1,17 @@
-/* src/ToDoList.css */
-.todo-list {
-    margin-top: 100px;
+/* Add these styles to center the .todo-list in the middle of the screen */
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .todo-list {
     width: 600px;
-    margin: 0 auto;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 8px;
